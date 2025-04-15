@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 //COMPONENTS
 import Nav from '../components/Nav';
 
@@ -20,7 +20,7 @@ alert("Credentials Submitted");
 return (
     <div className='Main-containerContact'>
     <Nav/>
-    <div className="contactPart h-[110vh] md:h-[89vh] p-5  flex flex-col md:flex-row justify-evenly items-center gap-10">
+    <div className="contactPart h-[110vh] lg:h-[89vh] p-5  flex flex-col lg:flex-row justify-evenly items-center gap-10">
         <div className="Left">
         <h1 className="text-3xl font-bold text-appleblack">Contact Us</h1>
         <p className="text-appleblack text-lg">+977-9812345670 / 01-4312345</p>
@@ -29,7 +29,7 @@ return (
         <p className="text-appleblack text-lg">gts@gmail.com</p>
         </div>
 
-        <div className="Right h-[500px] w-[400px] md:w-[500px] bg-slate-400 rounded-xl p-5 flex flex-col justify-center items-center gap-10">
+        <div className="Right h-[500px] w-[400px] lg:w-[500px] bg-slate-400 rounded-xl p-5 flex flex-col justify-center items-center gap-10">
         <input onChange={(e)=>setFullName(e.target.value)}
         value={fullName}
         className='h-[50px] w-[90%] rounded-xl p-4 border-2 border-slate-600' placeholder='Full Name'></input>
