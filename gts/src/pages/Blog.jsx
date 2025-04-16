@@ -28,6 +28,7 @@ return (
 
     <div className="body w-full h-auto p-5 flex flex-col justify-center items-center gap-5" data-aos="fade-up">
         {
+            
         gtsBlog.map((item, index) => {
             return (
             <div key={item.index}
