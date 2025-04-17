@@ -7,7 +7,7 @@ import { MdOutlineMail } from "react-icons/md";
 const CallToAction = () => {
 return (
 <div className="Section6 flex flex-col lg:flex-row justify-center items-center p-5 h-auto gap-8 lg:gap-14" >
-    <div className="container1 h-[100px] w-[400px] bg-white rounded-xl flex justify-center items-center gap-5">
+    <div className="container1 h-[100px] w-[400px] bg-slate-200 rounded-xl flex justify-center items-center gap-5">
     <FiPhoneCall size={30} />
     <div className="call flex flex-col justify-center items-center">
         <h1 className='font-sans font-bold text-2xl '>Contact Us</h1>
@@ -15,7 +15,7 @@ return (
     </div>
     </div>
 
-    <div className="container2 h-[100px] w-[400px] bg-white rounded-xl flex justify-center items-center gap-5">
+    <div className="container2 h-[100px] w-[400px] bg-slate-200 rounded-xl flex justify-center items-center gap-5">
     <MdOutlineMail size={30}/>
     <div className="call flex flex-col justify-center items-center">
         <h1 className='font-sans font-bold text-2xl'>Email Us</h1>
@@ -23,7 +23,7 @@ return (
     </div>
     </div>
 
-    <div className="container3 h-[100px] w-[400px] bg-white rounded-xl flex justify-center items-center gap-5">
+    <div className="container3 h-[100px] w-[400px] bg-slate-200 rounded-xl flex justify-center items-center gap-5">
     <IoLocationOutline size={30}/>
     <div className="call flex flex-col justify-center items-center">
         <h1 className='font-sans font-bold text-2xl'>Our Location</h1>
