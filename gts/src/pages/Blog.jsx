@@ -32,7 +32,7 @@ return (
         gtsBlog.map((item, index) => {
             return (
             <div key={item.index}
-            className="BlogCard rounded-xl w-[300px] lg:w-[900px] h-[150px] p-3 flex items-center gap-8 bg-slate-500 mx-10" data-aos="fade-up">
+            className="BlogCard rounded-xl w-[300px] lg:w-[900px] h-[150px] p-3 flex items-center gap-8 bg-slate-300 mx-10" data-aos="fade-up">
             <img src={item.blogImage} className='h-[100px] w-[100px] rounded-xl' alt='blog1'/>
             <div className="blogtxt">
             <h1 className='font-sans text-sm lg:text-3xl text-start'>{item.blogTitle}</h1>
