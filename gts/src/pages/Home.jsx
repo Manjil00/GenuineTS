@@ -38,7 +38,7 @@ return (
     </div>
 
     {/* //SECTION2 */}
-    <div className="Section2 h-auto w-full mt-14 p-4 flex flex-col lg:flex-row gap-10 lg:gap-20 justify-center items-center" data-aos="fade-up">
+    <div className="Section2 h-auto w-full mt-20 p-4 flex flex-col lg:flex-row gap-10 lg:gap-20 justify-center items-center" data-aos="fade-up">
         <div className="left h-[200px] w-[350px] lg:h-[350px] lg:w-[350px]">
             <img src='../images/server1.jpg' className='rounded-xl h-[200px] w-[400px] lg:h-[350px] lg:w-[350px] ' alt='sec2img'/>
         </div>

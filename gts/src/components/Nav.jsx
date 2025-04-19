@@ -11,7 +11,7 @@ return (
     <nav className="flex justify-between px-6 py-3 z-50 relative bg-Gts_white ">
     <div className="flex justify-center items-center">
         <img src="/images/gtslogo.jpg"  className="w-[50px] h-[50px] mr-3" alt="Logo" />
-        {/* <h1 className='text-appleblack ml-6  text-sm lg:text-3xl
+        {/* <h1 className='text-black ml-6  text-sm lg:text-3xl
 cursor-pointer flex justify-center items-center font-sans'>Genuine Tech & Services</h1> */}
 
     </div>
