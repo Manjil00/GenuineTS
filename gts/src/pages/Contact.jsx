@@ -46,7 +46,7 @@ return (
         value={desc}
         className='h-[90px] w-[90%] rounded-xl p-4 border-2 border-slate-600' placeholder='Description'></input>
         <button onClick={()=>handleSubmit()}
-        className='h-[50px] w-[100px] rounded-xl p-2 bg-white text-xl cursor-pointer'>Submit</button>
+        className='h-[50px] w-[100px] rounded-xl p-2 bg-blue-400 text-xl cursor-pointer'>Submit</button>
         </div>
     </div>
     </div>
